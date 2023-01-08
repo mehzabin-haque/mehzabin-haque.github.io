@@ -1,14 +1,17 @@
 @import url(./partials/_variables.css);
 
 /* navigation */
+/* body{
+    padding-left: 2rem;
+} */
 
-.header_area,
-.main-menu,
-.navbar,
-.navbar-brand {
-    padding: 0 2rem 0 5rem;
-    /* background-color: antiquewhite; */
-}
+/* html,body{
+    overflow-x: hidden;
+    margin:0;
+    width: 100vw;
+} */
+
+
 
 .navbarScroll.navbar {
     background-color: white;
@@ -72,7 +75,7 @@ a:hover {
 h3 {
     /* background: url(/img/rsz_11logo.png) no-repeat;
     background-position: 0% 50%; */
-/*     padding-top: 15%; */
+    /* padding-top: 35%; */
     font: normal 30px/62px var(--roboto);
     font-weight: 500;
     padding-bottom: 0px;
@@ -87,7 +90,7 @@ h3::after {
     width: 18vw;
     /* background: black; */
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 10rem;
     transform: translateY(-10px);
 }
 
@@ -115,8 +118,11 @@ h4 {
     float: right;
 }
 
+
 #img1 {
-    float: right;
+    /* float: right; */
+    height: 73vh;
+    width: auto;
 }
 
 .title-text1 {
@@ -132,6 +138,9 @@ h4 {
     border-radius: 4px;
 }
 
+/* .site-banner{
+    border: 2px solid red;
+} */
 .button,
 .primary-button {
     background: var(--gradient-color);
@@ -178,15 +187,26 @@ h4 {
     margin-right: 0.5px;
 }
 
-
+.edu{
+    /* ox-sizing: border-box; */
+    float: right;
+    /* align-items: flex-star; */
+}
 /* education */
 
 .site-main,
 .edu-area {
     padding: 8rem 5rem;
+    /* padding-left: 2rem; */
 }
 
+.edu-img{
+    margin-left: 3rem;
+}
 
+/* .edu-area{
+    margin-left: 4rem;
+} */
 /* .site-main,
 .edu-area,
 .edu-title,
